@@ -1,0 +1,28 @@
+body{
+    background: url(../imagens/bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+} 
+
+.area_conteudo{
+    display: flex; 
+    flex-direction: column;
+}
+
+.botao{
+    width: 70px; 
+    height: 40px;
+    margin: 0 auto;  
+    color: white;
+    font-weight: bold;
+    background-color: rgb(34, 33, 33);
+    border: none;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+.botao:hover{
+    background-color: rgb(40, 39, 33);
+}
